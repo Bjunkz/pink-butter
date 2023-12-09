@@ -1,11 +1,32 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import '../styles/global.css'
 
 export default function Home() {
   return (
-    <div>
-      <h1>PINK BUTTER</h1>
-      <Image src='/public/pink-butter-garden1.png' width='1024' height='1000'/>
+    <div className='page'>
+    <div className='section section1'>
+      <h1 className='pink-butter'>PINK BUTTER</h1>
+      <Image src='/public/pink-butter-garden1.png' width={500} height={500}/>
+    </div>
+    <div className='section section2'>
+    <Image src='/public/pink-butter-garden1.png' width={500} height={500}/>
+    </div>
+    <div className='section section3'>
+      <div className='bio-text-container'>
+        <p>
+        Releasing their debut EP featuring hip hop and rnb legends T3 (Slum Village) and Jermaine Holmes
+(D’Angelo, Pete Rock)
+        </p>
+        <p>Oskar, Björn, Malte and John met during jazz college and have earned a living accompanying the biggest hip
+hop and pop artists in Sweden since, but have now decided to create their own project that strive to be
+something different.</p>
+<p>“We made this album by simply playing together live in the studio, to give as much of ourselves as possible
+to the music. In the age of sequencing and programming every element of a record, we have chose to
+simply be extra human. It’s the way all of our favorite albums were made.”</p>
+      </div>
+      <div>LÄNK TILL LÅT 1</div>
+      <div>LÄNK TILL LÅT 2</div>
+    </div>
     </div>
   )
 }
