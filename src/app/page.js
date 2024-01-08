@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image'
 import '../styles/global.css'
 
@@ -6,10 +7,11 @@ export default function Home() {
     <div className='page'>
     <div className='section section1'>
       <h1 className='pink-butter'>PINK BUTTER</h1>
-      <Image src='/public/pink-butter-garden1.png' width={500} height={500}/>
+      <img className='img-full' src='/pink-butter-garden1.jpg' alt='image of Pink Butter'/>
+      
     </div>
     <div className='section section2'>
-    <Image src='/public/pink-butter-garden1.png' width={500} height={500}/>
+    <img className='img-full' src='/pink-butter-waterslide.png'/>
     </div>
     <div className='section section3'>
       <div className='bio-text-container'>

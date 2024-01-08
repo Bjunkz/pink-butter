@@ -1,12 +1,22 @@
 .page{
-    background-color: pink ;
+    background-color: rgb(236, 143, 158) ;
     color: black;
     padding-bottom: 50px;
 }
 
 .pink-butter{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  z-index: 1;
     font-size: 50px;
-    color: deeppink;
+    color: white;
+  }
+
+  .img-full{
+    width: 100%;
+    height: auto;
   }
   
   .page{
@@ -15,12 +25,12 @@
   }
 
   .section{
-    height: 100vh;
   }
 
   .section1 {
   }
   .section2 {
+
   }
   .section3 {
     display: flex;
