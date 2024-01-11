@@ -79,6 +79,7 @@ table {
     margin-bottom: -5px;
   }
   .section2 {
+    margin-bottom: -5px;
 
   }
   .section3 {
@@ -90,6 +91,12 @@ table {
   .bio-text-container{
     width: 70%;
     text-align: center;
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  z-index: 9999;
+    color: white;
   }
   .bio-text-container p, q{
   padding-top: 25px;
