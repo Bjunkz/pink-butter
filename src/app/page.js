@@ -6,12 +6,13 @@ export default function Home() {
   return (
     <div className='page'>
     <div className='section section1'>
-      <h1 className='pink-butter'>PINK BUTTER</h1>
-      <img className='img-full' src='/pink-butter-garden1.jpg' alt='image of Pink Butter'/>
+      {/* <h1 className='pink-butter'>PINK BUTTER</h1> */}
+      <img className='img-full' src='/000076090021.png' alt="image of pink butter"/>
+
       
     </div>
     <div className='section section2'>
-    <img className='img-full' src='/pink-butter-waterslide.png'/>
+    <img className='img-full' src='/pink-butter-garden1.png' alt='image of Pink Butter'/>
     </div>
     <div className='section section3'>
       <div className='bio-text-container'>
@@ -22,8 +23,8 @@ export default function Home() {
         <p>Oskar, Björn, Malte and John met during jazz college and have earned a living accompanying the biggest hip
 hop and pop artists in Sweden since, but have now decided to create their own project that strive to be
 something different.</p>
-<p>“We made this album by simply playing together live in the studio, to give as much of ourselves as possible
-to the music. In the age of sequencing and programming every element of a record, we have chose to
+<p className='quote'>“We made this album by simply playing together live in the studio, to give as much of ourselves as possible
+to the music. In the age of sequencing and programming every element of a record, we have chosen to
 simply be extra human. It’s the way all of our favorite albums were made.”</p>
       </div>
       <div>LÄNK TILL LÅT 1</div>
