@@ -57,7 +57,7 @@ simply be extra human. It’s the way all of our favorite albums were made.”</
       
       <Player       
        source="/audio/Lost-My-Mind.mp3"
-        title="Can We Go Back"
+        title="Lost My Mind"
         artist=""
         artwork="/pink-butter-garden1.png"
         position='right'
