@@ -45,10 +45,11 @@ table {
 .page{
     background-color: rgb(236, 143, 158) ;
     color: black;
-    padding-bottom: 50px;
     margin: 0;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
 }
 
 .pink-butter{
@@ -91,18 +92,20 @@ table {
   .bio-text-container{
     width: 70%;
     text-align: center;
-    position: absolute;
-    bottom: -80px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  z-index: 9999;
-    color: white;
+    background-image: url("/background.jpg");
+    width: 100%;
+    height: auto;
+    color: white; 
+    padding: 40px;
   }
   .bio-text-container p, q{
   padding-top: 25px;
   }
   .bio-text-container .quote{
     padding-top: 25px;
-
   font-style: italic;
+  }
+
+  .player-container{
+padding: 40px;
   }
