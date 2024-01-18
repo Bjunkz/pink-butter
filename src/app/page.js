@@ -22,11 +22,11 @@ export default function Home() {
     {/* <img className='img-full' src='/background.jpg' alt='background'/> */}
       <div className='bio-text-container'>
         <div className='logo-text-container'>
-          <div className='logo-container'>
+          <div className='logo-container logo-left'>
 
-        <img className="logo" src="/logo.png" alt="" />
+        <img className="logo" src="/logo2.png" alt="" />
           </div>
-        <div>
+        <div className='text-container'>
         <p>
         Releasing their debut EP featuring hip hop and rnb legends T3 (Slum Village) and Jermaine Holmes
 (D’Angelo, Pete Rock) among others.
@@ -38,8 +38,8 @@ something different.</p>
 to the music. In the age of sequencing and programming every element of a record, we have chosen to
 simply be extra human. It’s the way all of our favorite albums were made.”</p>
         </div>
-        <div className='logo-container'>
-      <img className="logo" src="/logo.png" alt="" />
+        <div className='logo-container logo-right'>
+      <img className="logo" src="/logo2.png" alt="" />
       </div>        
   </div>
 
@@ -51,7 +51,7 @@ simply be extra human. It’s the way all of our favorite albums were made.”</
         artist=""
         artwork="/pink-butter-garden1.png"
         position='right'
-        bgColor='#F2B3CA'
+        bgColor='#535656'
         />
       </div>
 <div className='player-container'>
@@ -62,7 +62,7 @@ simply be extra human. It’s the way all of our favorite albums were made.”</
         artist=""
         artwork="/pink-butter-garden1.png"
         position='right'
-        bgColor='#F2A2C0'
+        bgColor='#535656'
         />
       </div>
 <div className='player-container'>
@@ -73,7 +73,7 @@ simply be extra human. It’s the way all of our favorite albums were made.”</
         artist=""
         artwork="/pink-butter-garden1.png"
         position='right'
-        bgColor='#F294B6'
+        bgColor='#535656'
         />
       </div>
       </div>

@@ -96,8 +96,8 @@ table {
     width: 100%;
     height: auto;
     color: white; 
-    padding: 40px;
     display: flex;
+    padding-top: 20px;
     flex-direction: column;
     align-items: center;
   }
@@ -134,7 +134,6 @@ table {
     }
 
 .player__metadata{
-  color: black;
       padding-left: 20px;
     }
   @media (min-width: 480px) {
@@ -152,12 +151,47 @@ table {
         
       }
   }
-  
+
   @media (min-width: 1100px) {
 
-      .logo-container{
-        padding: 80px;
-        
+      .logo-left{
+padding-right: 10%;
+padding-left: 0;
       }
-  }
+      .logo-right{
+padding-left: 10%;
+padding-right: 0;
+      }
+.text-container{
+  min-width: 400px;
+} 
+ }
+  @media (min-width: 1300px) {
+
+      .logo-left{
+padding-right: 15%;
+padding-left: 0;
+      }
+      .logo-right{
+padding-left: 15%;
+padding-right: 0;
+      }
+.text-container{
+  min-width: 400px;
+} 
+ }
+  @media (min-width: 1400px) {
+
+      .logo-left{
+padding-right: 18%;
+padding-left: 0;
+      }
+      .logo-right{
+padding-left: 18%;
+padding-right: 0;
+      }
+.text-container{
+  min-width: 400px;
+} 
+ }
 
