@@ -21,9 +21,15 @@ export default function Home() {
     <div className='section section3'>
     {/* <img className='img-full' src='/background.jpg' alt='background'/> */}
       <div className='bio-text-container'>
+        <div className='logo-text-container'>
+          <div className='logo-container'>
+
+        <img className="logo" src="/logo.png" alt="" />
+          </div>
+        <div>
         <p>
         Releasing their debut EP featuring hip hop and rnb legends T3 (Slum Village) and Jermaine Holmes
-(D’Angelo, Pete Rock)
+(D’Angelo, Pete Rock) among others.
         </p>
         <p>Oskar, Björn, Malte and John met during jazz college and have earned a living accompanying the biggest hip
 hop and pop artists in Sweden since, but have now decided to create their own project that strive to be
@@ -31,6 +37,12 @@ something different.</p>
 <p className='quote'>“We made this album by simply playing together live in the studio, to give as much of ourselves as possible
 to the music. In the age of sequencing and programming every element of a record, we have chosen to
 simply be extra human. It’s the way all of our favorite albums were made.”</p>
+        </div>
+        <div className='logo-container'>
+      <img className="logo" src="/logo.png" alt="" />
+      </div>        
+  </div>
+
 <div className='player-container'>
       
       <Player       
