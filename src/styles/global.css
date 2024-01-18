@@ -111,12 +111,23 @@ table {
   }
   .player-container{
     padding: 40px;
-  
-  
+    }
+
+  .player__artwork{
+      display: none;
+    }
+
+.player__metadata{
+  color: black;
+      padding-left: 20px;
     }
   @media (min-width: 480px) {
     .player-container {
      padding: 60px
     }
+    .bio-text-container p, q{
+      font-size: 18px;
+      }
+
   }
 
